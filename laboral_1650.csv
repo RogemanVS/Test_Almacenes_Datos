@@ -1,5 +1,5 @@
 columna,int64,En SRDM debe ser:,¿Es opcional?,Número de matrícula del alumno.,Ejemplo de contenidos / Dominio
-matricula,object,object,No,Número de matrícula que el egresado tenía cuando era alumno.,"""1234567"""
+matricula,object,object,No,Número de matrícula que el egresado tenía cuando era alumno.,"""1"""
 nombre,object,object,No,Nombre del egresado.,"""Juan"""
 apellidos,object,object,No,Apellidos del egresado.,"""Pérez"""
 f_nacimiento,object,datetime64,No,Fecha de nacimiento del egresado.,"""1995-04-29"""
