@@ -1,0 +1,10 @@
+columna,int64,En SRDM debe ser:,¿Es opcional?,Número de matrícula del alumno.,Ejemplo de contenidos / Dominio
+matricula,object,object,No,Número de matrícula que el egresado tenía cuando era alumno.,"""1234567"""
+nombre,object,object,No,Nombre del egresado.,"""Juan"""
+apellidos,object,object,No,Apellidos del egresado.,"""Pérez"""
+f_nacimiento,object,datetime64,No,Fecha de nacimiento del egresado.,"""1995-04-29"""
+sexo,object,object,Sí,"Sexo del egresado. ""H"", indica que es ""HOMBRE"", y ""M"" indica que es ""MUJER"".","""H"", ""M"""
+egreso,object,datetime64,No,Fecha en que egresó el alumno.,"""2013-06-01"", ..."
+area,object,object,No,Área del conocimiento sobre el que trata la carrera del egresado. Se ilustran los únicos valores posibles.,"""ingeniería"", ""humanidades"", ""medicina"", ""ciencias sociales"""
+estado_laboral,int64,object,Sí,"Indica si el egresado está laborando actualmente. 1 indica que sí está laborando, 0 indica que no está laborando.","1, 0"
+sueldo,float64,float64,Sí,"Expresa el sueldo mensual que el egresado manifiesta tener en este momento, en caso de estar laborando.","23000.00, 14560.00, ..."
